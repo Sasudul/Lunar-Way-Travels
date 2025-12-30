@@ -1,6 +1,6 @@
 
+import { ChevronRight, Compass, Globe2, Play } from 'lucide-react';
 import React from 'react';
-import { ChevronRight, Play, Compass, Globe2 } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
@@ -16,8 +16,8 @@ export const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-tr from-slate-950/90 via-slate-900/40 to-slate-900/20" />
       </div>
 
-      <div className="container mx-auto px-6 relative z-10 mt-20 md:mt-24">
-        <div className="max-w-4xl">
+<div className="container mx-auto px-6 relative z-10 mt-32 md:mt-40">
+          <div className="max-w-4xl">
           {/* Floating Tag */}
           <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/10 border border-white/20 text-white text-[13px] font-bold tracking-[0.2em] uppercase mb-8 backdrop-blur-xl animate-in fade-in slide-in-from-bottom-4 duration-700">
             <span className="flex h-3 w-3 relative">

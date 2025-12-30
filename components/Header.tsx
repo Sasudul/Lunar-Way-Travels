@@ -1,9 +1,9 @@
 
-import React, { useState, useEffect } from 'react';
-import { Menu, X, User, PhoneCall } from 'lucide-react';
-import { Logo } from './Logo';
-import { useCurrency } from './CurrencyContext';
+import { Menu, PhoneCall, User, X } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
 import { Currency } from '../types';
+import { useCurrency } from './CurrencyContext';
+import { Logo } from './Logo';
 
 export const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -28,7 +28,7 @@ export const Header: React.FC = () => {
   return (
     <>
       <header 
-        className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ease-in-out px-4 md:px-8 py-4 md:py-6`}
+        className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ease-in-outpx-4 md:px-8 py-2`}
       >
         <div 
           className={`container mx-auto transition-all duration-500 h-20 md:h-24 px-6 md:px-10 rounded-[2rem] flex items-center justify-between border ${
