@@ -16,8 +16,8 @@ const App: React.FC = () => {
           <Hero />
           
           {/* Why Choose Us Highlight */}
-          <section className="py-20 bg-slate-900 -mt-20 relative z-20 rounded-t-[3rem] shadow-2xl overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl -mr-32 -mt-32" />
+<section className="py-20 bg-slate-900 -mt-12 relative z-20 rounded-t-[3rem] shadow-2xl overflow-hidden">
+           <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl -mr-32 -mt-32" />
             <div className="container mx-auto px-4">
               <div className="flex flex-col lg:flex-row items-center gap-12">
                 <div className="lg:w-1/2">
@@ -81,9 +81,9 @@ const App: React.FC = () => {
             </div>
             <div className="flex gap-6 overflow-x-auto pb-12 px-4 no-scrollbar">
               {[
-                { title: 'Ancient Sigiriya', loc: 'Sri Lanka', img: 'https://images.unsplash.com/photo-1588598116719-c8ad124e22fb?q=80&w=800&auto=format&fit=crop' },
-                { title: 'Petronas Towers', loc: 'Malaysia', img: 'https://images.unsplash.com/photo-1596422846543-75c6fc18a593?q=80&w=800&auto=format&fit=crop' },
-                { title: 'Burj Khalifa', loc: 'Dubai', img: 'https://images.unsplash.com/photo-1518684661700-f2463759670d?q=80&w=800&auto=format&fit=crop' },
+                { title: 'Ancient Sigiriya', loc: 'Sri Lanka', img: 'https://i0.wp.com/unusualplaces.org/wp-content/uploads/2013/10/Sigiriya1.jpg?fit=917,1024&ssl=1?q=80&w=800&auto=format&fit=crop' },
+                { title: 'Petronas Towers', loc: 'Malaysia', img: 'https://tse4.mm.bing.net/th/id/OIP.6tAEuBvFmEcYzrhyozDlGwHaLG?rs=1&pid=ImgDetMain&o=7&rm=3?q=80&w=800&auto=format&fit=crop' },
+                { title: 'Burj Khalifa', loc: 'Dubai', img: 'https://tse2.mm.bing.net/th/id/OIP.Og_yWS5JDwefQXwUaw2HAQHaLH?rs=1&pid=ImgDetMain&o=7&rm=3?q=80&w=800&auto=format&fit=crop' },
                 { title: 'Phi Phi Islands', loc: 'Thailand', img: 'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?q=80&w=800&auto=format&fit=crop' },
                 { title: 'London Bridge', loc: 'United Kingdom', img: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=800&auto=format&fit=crop' },
               ].map((item, idx) => (

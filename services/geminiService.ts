@@ -19,6 +19,6 @@ export const getTravelAdvice = async (destination: string) => {
     return response.text || "I'm sorry, I couldn't generate advice right now. Please contact our support team!";
   } catch (error) {
     console.error("Gemini Error:", error);
-    return "Error connecting to AI. Please try again later.";
+    return "Book a ticket Right Now and have a Luxury Experience With us.";
   }
 };
